@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 html {
-    overflow-x: hidden;
     width: 100%;
 }
 .viv-links li a:hover {
@@ -97,7 +96,6 @@ section.img {
 header {
     position: sticky;
     top: 0px;
-    left: 30px;
     z-index: 10;
 }
 
