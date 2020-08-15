@@ -78,7 +78,7 @@ main {
     padding-top: 50px;
 }
 section.img {
-    /*background-image: url(images/picture.png);*/
+    background-image: url(images/picture.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -88,18 +88,13 @@ section.img {
 
 section.img {
     position: relative;
+    z-index: -5;
 }
 header {
     position: sticky;
     top: 0px;
     left: 30px;
     z-index: 10;
-}
-.tryImg {
-    height: 550px;
-    position: fixed;
-    z-index: -5;
-    width:100%;
 }
 
 .arrowDown {
@@ -245,21 +240,9 @@ span.bolder {
     .futureProjects {
         height: 600px;
     }
-
-    .tryImg {
-        height: 950px;
-        position: fixed;
-        z-index: -5;
-        width:100%;
-    }
     .arrowDown {
         bottom: 5%;
         left: 49.5%;
-    }
-    section.img {
-        box-sizing: border-box;
-        padding-bottom: 800px;
-
     }
     main {
        margin-top:0;
@@ -314,16 +297,6 @@ span.bolder {
 
     .futureProjects {
         margin-top: 50px;
-    }
-
-    .tryImg {
-        height: 480px;
-        position: fixed;
-        z-index: -5;
-        width:100%;
-    }
-    section.img {
-        box-sizing: border-box;
     }
     .arrowDown {
         bottom: 15%;
